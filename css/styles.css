@@ -5,6 +5,9 @@
 }
 
 :root {
+  --content-position-top: 100px;
+  --content-position-bottom: 100px;
+
   --primary-color: #00F;
   --secondary-color: #f9b7ff;
   --dark-grey: #2b2b2b;
@@ -29,8 +32,8 @@ body {
   /*animation: 30s colorchange infinite alternate linear;*/
   background: linear-gradient(to right, #fff4b7 0%, #edffb7 19%, #b7fffc 40%, #e7cafc 60%, #fccae0 83%, #fff4b7 100%);
   background-size: 10000px 100%;
-  animation: bg 40s linear infinite ;
-  transform: translateZ(0);
+  animation: bg 20s linear 2 ;
+  /*transform: translateZ(0);*/
 }
 
 .no-cpu {
@@ -69,13 +72,8 @@ header {
   width: 100%;
   background: linear-gradient(to right, #fff4b7 0%, #edffb7 19%, #b7fffc 40%, #e7cafc 60%, #fccae0 83%, #fff4b7 100%);
   background-size: 10000px 100%;
-  animation: bg 40s linear infinite ;
+  animation: bg 20s linear 2 ;
   transform: translateZ(0);
-}
-
-footer {
-  border: 0px solid black;
-  margin: 60px 0 20px 0;
 }
 
 section {
@@ -84,8 +82,20 @@ section {
   min-width: 360px;
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: var(--content-position-top);
+  padding-bottom: var(--content-position-bottom);
   border: 0px solid black;
+}
+
+.grid_profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.grid__item_profile {
+  display: inline-block;
+  /*width: 70%;*/
 }
 
 .grid {
@@ -149,24 +159,28 @@ section {
 }
 
 .profile {
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   width: 90%;
+  height: 100%;
   min-width: 360px;
   max-width: 1000px;
-  margin: 0 auto;
-  padding-top: 100px;
+  padding-top: var(--content-position-top);
+  padding-bottom: var(--content-position-bottom);
   border: 0px solid black;
 }
 
 .profile__portrait {
+  padding-top: 10px;
   max-width: 100%;
+  max-height: 100%;
   min-width: 260px;
+  min-height: 260px;
   margin-right: 40px;
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  flex: 1 1 100px;
+  /*width: 100%;
+  height: 100%;*/
+  /*flex: 1 1 100px;*/
 }
 
 .profile__text {
@@ -306,7 +320,18 @@ ul.navigation li {
 /* Footer */
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
+  margin: 0;
+  padding: 20px 0 20px 0;
+
+  background: linear-gradient(to right, #fff4b7 0%, #edffb7 19%, #b7fffc 40%, #e7cafc 60%, #fccae0 83%, #fff4b7 100%);
+  background-size: 10000px 100%;
+  animation: bg 20s linear 2 ;
+  transform: translateZ(0);
 }
 
 footer.p__small {
@@ -781,11 +806,18 @@ fieldset {
 /*Responsive*/
 
 @media all and (max-width: 500px) {
+  h1 {
+      font-size: 50px;
+    }
+}
+
+@media all and (max-width: 1024px) {
   .grid {
       grid-template-columns: 1fr;
       grid-gap: 10px;
     }
-  h1 {
-      font-size: 50px;
+  .grid_profile {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
     }
 }
