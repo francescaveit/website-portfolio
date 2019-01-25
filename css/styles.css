@@ -36,6 +36,11 @@ body {
   /*transform: translateZ(0);*/
 }
 
+.logo hover {
+  fill: #00F;
+  background-color: none;
+}
+
 .no-cpu {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
