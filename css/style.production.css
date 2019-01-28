@@ -23,7 +23,7 @@ body {
   /*transform: translateZ(0);*/
 }
 
-.logo hover {
+.logo:hover {
   fill: #00F;
   background-color: transparent;
 }
