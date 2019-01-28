@@ -38,7 +38,7 @@ body {
 
 .logo hover {
   fill: #00F;
-  background-color: none;
+  background-color: transparent;
 }
 
 .no-cpu {
