@@ -129,14 +129,24 @@ section {
 
 .grid__item {
   /*background-color: white;*/
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color:rgba(255, 230, 255, 0.5);
   padding: 30px;
   margin: 10px;
   width: auto;
   transition: all 0.2s ease-in;
-
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.grid__item_content {
+  opacity: 0;
+}
+
+
+.grid__item_content:hover {
+  opacity: 1;
 }
 
 .grid__item:hover {
