@@ -106,7 +106,7 @@ section {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .grid__content {
@@ -129,15 +129,41 @@ section {
 
 .grid__item {
   /*background-color: white;*/
-  background-color:rgba(255, 255, 255, 0.5);
+  /*background-color:rgba(255, 255, 255, 0.5);*/
   padding: 30px;
-  margin: 10px;
+  /*margin: 20px;*/
   width: auto;
   transition: all 0.2s ease-in;
 
-  background-repeat: no-repeat;
-  background-size: auto;
+  position: relative;
+
+  overflow: hidden;
+
+  /*background-size: cover;*/
+  background-color:rgba(255, 255, 255, 0.8);
+  height:100%;
+
 }
+
+.grid__item_bg {
+    /*display: block;
+    position: absolute;*/
+    /*left: 0;
+    top: 0;*/
+    margin: 30px;
+    width: 100%;
+    height: 100%;
+background-position: 50% 0;
+background-size: auto;
+    /*opacity: 0.6;*/
+    background-image: url('https://no-agency.de/content/2-projects/3-alike/img_alike_in-use@2x.png');
+    /*background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;*/
+}
+
+
+
 
 .grid__item:hover {
   /*background-color: white;*/
