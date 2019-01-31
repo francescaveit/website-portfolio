@@ -265,7 +265,6 @@ button {
 }
 
 button {
-
   /* takes the font from the outer container */
   font-family: inherit;
   font-size: 16px;
