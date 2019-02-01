@@ -2,7 +2,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
@@ -27,7 +27,7 @@ body {
   background: linear-gradient(to right, #fff4b7 0%, #edffb7 19%, #b7fffc 40%, #e7cafc 60%, #fccae0 83%, #fff4b7 100%);
   background-size: 10000px 100%;
   -webkit-animation: bg 20s linear 2;
-          animation: bg 20s linear 2;
+  animation: bg 20s linear 2;
 }
 
 .logo:hover {
@@ -91,9 +91,9 @@ header {
   background: linear-gradient(to right, #fff4b7 0%, #edffb7 19%, #b7fffc 40%, #e7cafc 60%, #fccae0 83%, #fff4b7 100%);
   background-size: 10000px 100%;
   -webkit-animation: bg 20s linear 2;
-          animation: bg 20s linear 2;
+  animation: bg 20s linear 2;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 section {
@@ -177,7 +177,7 @@ section {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   -webkit-box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.1);
-          box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.1);
 }
 
 .grid__item:hover h2 {
@@ -192,8 +192,8 @@ section {
 }
 
 /* .grid__item:last-child {
-  grid-column: 3 / 3;
-  grid-row: 2 / 4;
+grid-column: 3 / 3;
+grid-row: 2 / 4;
 } */
 
 .grid__item:first-child {
@@ -230,15 +230,15 @@ section {
 
 .profile__text {
   -webkit-box-flex: 3;
-      -ms-flex: 3 1 100px;
-          flex: 3 1 100px;
+  -ms-flex: 3 1 100px;
+  flex: 3 1 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 h1 {
@@ -378,7 +378,7 @@ ul.navigation li {
 
 .navigation-list__item--active {
   -webkit-text-decoration: underline wavy blue;
-          text-decoration: underline wavy blue;
+  text-decoration: underline wavy blue;
 }
 
 .navigation-list__item:hover {
@@ -403,9 +403,9 @@ footer {
   background: linear-gradient(to right, #fff4b7 0%, #edffb7 19%, #b7fffc 40%, #e7cafc 60%, #fccae0 83%, #fff4b7 100%);
   background-size: 10000px 100%;
   -webkit-animation: bg 20s linear 2;
-          animation: bg 20s linear 2;
+  animation: bg 20s linear 2;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 footer.p__small {
@@ -455,7 +455,7 @@ footer.p__small {
 
 .sun {
   -webkit-animation: 4s color-change infinite alternate linear;
-          animation: 4s color-change infinite alternate linear;
+  animation: 4s color-change infinite alternate linear;
 }
 
 @-webkit-keyframes color-logo-change {
@@ -488,7 +488,7 @@ footer.p__small {
 
 .logo {
   -webkit-animation: 4s color-logo-change infinite alternate linear;
-          animation: 4s color-logo-change infinite alternate linear;
+  animation: 4s color-logo-change infinite alternate linear;
 }
 
 @keyframes color-change {
@@ -509,13 +509,13 @@ footer.p__small {
   from {
     /* transform: translate(-250px, none); */
     -webkit-transform: translate(-58px, -120px);
-            transform: translate(-58px, -120px);
+    transform: translate(-58px, -120px);
   }
 
   to {
     /* transform: translate(200px, none); */
     -webkit-transform: translate(-58px, -140px);
-            transform: translate(-58px, -140px);
+    transform: translate(-58px, -140px);
   }
 }
 
@@ -523,13 +523,13 @@ footer.p__small {
   from {
     /* transform: translate(-250px, none); */
     -webkit-transform: translate(-58px, -120px);
-            transform: translate(-58px, -120px);
+    transform: translate(-58px, -120px);
   }
 
   to {
     /* transform: translate(200px, none); */
     -webkit-transform: translate(-58px, -140px);
-            transform: translate(-58px, -140px);
+    transform: translate(-58px, -140px);
   }
 }
 
@@ -537,13 +537,13 @@ footer.p__small {
   from {
     /* transform: translate(-250px, none); */
     -webkit-transform: translateX(-250px);
-            transform: translateX(-250px);
+    transform: translateX(-250px);
   }
 
   to {
     /* transform: translate(200px, none); */
     -webkit-transform: translateX(200px);
-            transform: translateX(200px);
+    transform: translateX(200px);
   }
 }
 
@@ -551,92 +551,92 @@ footer.p__small {
   from {
     /* transform: translate(-250px, none); */
     -webkit-transform: translateX(-250px);
-            transform: translateX(-250px);
+    transform: translateX(-250px);
   }
 
   to {
     /* transform: translate(200px, none); */
     -webkit-transform: translateX(200px);
-            transform: translateX(200px);
+    transform: translateX(200px);
   }
 }
 
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(-80px, -250px);
-            transform: translate(-80px, -250px);
+    transform: translate(-80px, -250px);
   }
 
   to {
     -webkit-transform: translate(-380px, -250px);
-            transform: translate(-380px, -250px);
+    transform: translate(-380px, -250px);
   }
 }
 
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(-80px, -250px);
-            transform: translate(-80px, -250px);
+    transform: translate(-80px, -250px);
   }
 
   to {
     -webkit-transform: translate(-380px, -250px);
-            transform: translate(-380px, -250px);
+    transform: translate(-380px, -250px);
   }
 }
 
 .tower {
   -webkit-animation: 2s tower-move infinite alternate ease-in-out;
-          animation: 2s tower-move infinite alternate ease-in-out;
+  animation: 2s tower-move infinite alternate ease-in-out;
 }
 
 .cloud_hh {
   fill: #000;
   -webkit-animation: 30s cloud-move infinite alternate linear;
-          animation: 30s cloud-move infinite alternate linear;
+  animation: 30s cloud-move infinite alternate linear;
 }
 
 .cloud_front_hh {
   fill: #f9ff92;
   -webkit-animation: 30s cloud-move infinite alternate linear;
-          animation: 30s cloud-move infinite alternate linear;
+  animation: 30s cloud-move infinite alternate linear;
 }
 
 .cloud_hh_02 {
   fill: #000;
   -webkit-animation: 30s cloud-move-reverse infinite alternate linear;
-          animation: 30s cloud-move-reverse infinite alternate linear;
+  animation: 30s cloud-move-reverse infinite alternate linear;
 }
 
 .cloud_front_hh_02 {
   fill: #f9ff92;
   -webkit-animation: 30s cloud-move-reverse infinite alternate linear;
-          animation: 30s cloud-move-reverse infinite alternate linear;
+  animation: 30s cloud-move-reverse infinite alternate linear;
 }
 
 .star {
   -webkit-animation: 4s color-change infinite alternate linear;
-          animation: 4s color-change infinite alternate linear;
+  animation: 4s color-change infinite alternate linear;
 }
 
 .star_02 {
   -webkit-animation: 2s color-change infinite alternate linear;
-          animation: 2s color-change infinite alternate linear;
+  animation: 2s color-change infinite alternate linear;
 }
 
 .star_03 {
   -webkit-animation: 6s color-change infinite alternate linear;
-          animation: 6s color-change infinite alternate linear;
+  animation: 6s color-change infinite alternate linear;
 }
 
 .cloud-front {
   -webkit-animation: 30s cloud-move infinite alternate linear;
-          animation: 30s cloud-move infinite alternate linear;
+  animation: 30s cloud-move infinite alternate linear;
 }
 
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
-          animation: 34s cloud-move-reverse infinite alternate linear;
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /* Formular */
@@ -656,30 +656,30 @@ fieldset {
 
 /* .form-inline > .form-group,
 .form-inline > .btn {
-  display: inline-block;
-  margin-bottom: 0;
+display: inline-block;
+margin-bottom: 0;
 } */
 
 /* .form-help {
-  margin-top: 0.125rem;
-  margin-left: 0.125rem;
-  color: #b3b3b3;
-  font-size: 0.8rem;
+margin-top: 0.125rem;
+margin-left: 0.125rem;
+color: #b3b3b3;
+font-size: 0.8rem;
 } */
 
 /* .checkbox .form-help, .form-radio .form-help, .form-group .form-help {
-  position: absolute;
-  width: 100%;
+position: absolute;
+width: 100%;
 } */
 
 /* .checkbox .form-help {
-  position: relative;
-  margin-bottom: 1rem;
+position: relative;
+margin-bottom: 1rem;
 }
 
 .form-radio .form-help {
-  padding-top: 0.25rem;
-  margin-top: -1rem;
+padding-top: 0.25rem;
+margin-top: -1rem;
 } */
 
 .form-group input {
@@ -692,14 +692,14 @@ fieldset {
 }
 
 /* .form-group select {
-  width: 100%;
-  font-size: 1rem;
-  height: 1.6rem;
-  padding: 0.125rem 0.125rem 0.0625rem;
-  background: none;
-  border: none;
-  line-height: 1.6;
-  box-shadow: none;
+width: 100%;
+font-size: 1rem;
+height: 1.6rem;
+padding: 0.125rem 0.125rem 0.0625rem;
+background: none;
+border: none;
+line-height: 1.6;
+box-shadow: none;
 } */
 
 .form-group .control-label {
@@ -752,7 +752,7 @@ fieldset {
   -o-transition: all 0.28s ease;
   transition: all 0.28s ease;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .form-group textarea {
@@ -771,15 +771,15 @@ fieldset {
   -o-transition: all 0.28s ease;
   transition: all 0.28s ease;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 /* .form-group input[type="file"] {
-  line-height: 1;
+line-height: 1;
 }
 
 .form-group input[type="file"] ~ .bar {
-  display: none;
+display: none;
 } */
 
 .form-group select,
@@ -858,17 +858,17 @@ fieldset {
 
 /*
 .radio .helper {
-  position: absolute;
-  top: -0.25rem;
-  left: -0.25rem;
-  cursor: pointer;
-  display: block;
-  font-size: 1rem;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  color: #999;
+position: absolute;
+top: -0.25rem;
+left: -0.25rem;
+cursor: pointer;
+display: block;
+font-size: 1rem;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+color: #999;
 }
 */
 
@@ -892,8 +892,8 @@ fieldset {
 
 .radio .helper::after {
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
   background-color: #00f;
   border-color: #00f;
 }
@@ -904,8 +904,8 @@ fieldset {
 
 .radio input:checked ~ .helper::after {
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
-          transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
 }
 
 .radio input:checked ~ .helper::before {
@@ -939,8 +939,8 @@ fieldset {
   background-color: #00f;
   display: block;
   -webkit-transform-origin: left top;
-      -ms-transform-origin: left top;
-          transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
   border-radius: 0.1px;
   content: '';
   -webkit-transition: opacity 0.28s ease, height 0s linear 0.28s;
@@ -956,8 +956,8 @@ fieldset {
   background-color: #00f;
   display: block;
   -webkit-transform-origin: left top;
-      -ms-transform-origin: left top;
-          transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
   border-radius: 0.1px;
   content: '';
   -webkit-transition: opacity 0.28s ease, height 0s linear 0.28s;
@@ -970,16 +970,16 @@ fieldset {
   top: 10px;
   left: 8px;
   -webkit-transform: rotate(-135deg);
-      -ms-transform: rotate(-135deg);
-          transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 .checkbox .helper::after {
   top: 5px;
   left: 1px;
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .checkbox label:hover .helper {
@@ -1005,8 +1005,8 @@ fieldset {
 .checkbox input:checked ~ .helper::before {
   height: 19px;
   -webkit-transition-delay: 0.28s;
-       -o-transition-delay: 0.28s;
-          transition-delay: 0.28s;
+  -o-transition-delay: 0.28s;
+  transition-delay: 0.28s;
 }
 
 .radio + .radio,
