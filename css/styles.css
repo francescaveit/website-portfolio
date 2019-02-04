@@ -97,7 +97,6 @@ header {
 
 section {
   width: 90%;
-  min-width: 360px;
   max-width: 1000px;
   margin: 0 auto;
   padding-top: var(--content-position-top);
@@ -194,7 +193,6 @@ section {
   display: flex;
   /*width: 90%;*/
   max-width: 900px;
-  min-width: 500px;
   flex-direction: row;
   align-items: center;
 }
