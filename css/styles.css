@@ -855,6 +855,13 @@ fieldset {
     padding-bottom: var(--content-position-bottom);
   }
 
+  .profile {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: var(--content-position-top);
+    padding-bottom: var(--content-position-bottom);
+  }
+
   .profile_content {
     margin: auto;
     display: flex;
