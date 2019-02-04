@@ -835,6 +835,11 @@ fieldset {
     grid-gap: 10px;
   }
 
+  footer {
+    text-align: left;
+    margin-left: 20px;
+  }
+
   .footer-icn {
     margin: 5px;
   }
