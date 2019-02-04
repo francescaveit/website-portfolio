@@ -175,17 +175,6 @@ section {
 .profile {
   display: flex;
   height: 100vh;
-
-  /* margin: auto;
-  display: flex;
-  width: 90%;
-  height: 100%;
-  min-width: 360px;
-  max-width: 1000px;
-  padding-top: var(--content-position-top);
-  padding-bottom: var(--content-position-bottom);
-  border: 0 solid black;
-  align-items: center; */
 }
 
 .profile_content {
@@ -844,6 +833,14 @@ fieldset {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
+  }
+
+  .footer-icn {
+    margin: 5px;
+  }
+
+  footer.p__small {
+    margin-right: 0;
   }
 
   section {
