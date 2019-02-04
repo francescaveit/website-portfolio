@@ -192,7 +192,9 @@ section {
 .profile_content {
   margin: auto;
   display: flex;
-  width: 90%;
+  /*width: 90%;*/
+  max-width: 900px;
+  min-width: 500px;
   flex-direction: row;
   align-items: center;
 }
@@ -201,7 +203,7 @@ section {
   align-items: start;
   border-radius: 50%;
   margin: 20px;
-  width: 300px;
+  width: 200px;
 }
 
 .profile__text {
