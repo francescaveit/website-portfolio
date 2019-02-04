@@ -83,9 +83,13 @@ li {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
   margin: 0;
   padding: 40px;
   position: fixed;
+  display: flex;
+  align-items: baseline;
 
   /* background-color: var(--lightest-color); */
   width: 100%;
@@ -180,7 +184,6 @@ section {
 .profile_content {
   margin: auto;
   display: flex;
-  /*width: 90%;*/
   max-width: 900px;
   flex-direction: row;
   align-items: center;
@@ -305,7 +308,7 @@ button:focus {
 
 /* Navigation */
 nav {
-  float: right;
+  margin-left: auto;
 }
 
 ul.navigation li {
@@ -824,6 +827,14 @@ fieldset {
 /* Responsive */
 
 @media all and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    margin-left: -8px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -853,8 +864,33 @@ fieldset {
   }
 }
 
-
 @media all and (max-width: 500px) {
+  ul.navigation li {
+    /*display: flex;*/
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    margin-left: -8px;
+  }
+
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 110px;
+    padding-bottom: var(--content-position-bottom);
+  }
+
+  .profile {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 110px;
+    padding-bottom: var(--content-position-bottom);
+  }
+
   h1 {
     font-size: 50px;
   }
@@ -871,5 +907,4 @@ fieldset {
   footer.p__small {
     margin-right: 0;
   }
-
 }
