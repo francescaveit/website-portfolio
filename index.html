@@ -21,34 +21,35 @@
 
 <body>
 
-<!-- Header -->
-<header>
-  <a href="index.html" class="logo" target="_self"><svg
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="6.95cm" height="0.564cm">
-    <text kerning="auto" font-weight="700" class="logo" fill="rgb(0, 0, 0)" font-size="16px" x="0px" y="14.984px">FRANCESCA&#32;VEIT</text>
-  </svg></a>
-
-  <nav>
-    <ul class="navigation">
-      <li>
-        <a href="index.html" class="navigation-list__item navigation-list__item--active">HOME&nbsp;</a>
-      </li>
-      <li class="navigation-list">
+  <!-- Nav -->
+  <div class="Navbar">
+   <div class="Navbar__Link-brand">
+     <a href="index.html" class="logo" target="_self"><svg
+       xmlns="http://www.w3.org/2000/svg"
+       xmlns:xlink="http://www.w3.org/1999/xlink"
+       width="6.95cm" height="0.564cm">
+       <text kerning="auto" font-weight="700" class="logo" fill="rgb(0, 0, 0)" font-size="16px" x="0px" y="14.984px">FRANCESCA&#32;VEIT</text>
+     </svg></a>
+    </div>
+    <div class="Navbar__Link Navbar__Link-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav class="Navbar__Items Navbar__Items--right">
+      <div class="Navbar__Link">
+        <a href="index.html" class="navigation-list__item navigation-list__item--active">Home&nbsp;</a>
+      </div>
+      <div class="Navbar__Link">
         <a href="about.html" class="navigation-list__item">ABOUT ME&nbsp;</a>
-      </li>
-      <li class="navigation-list">
+      </div>
+      <div class="Navbar__Link">
         <a href="work.html" class="navigation-list__item">WORK&nbsp;</a>
-      </li>
-      <li class="navigation-list">
+      </div>
+      <div class="Navbar__Link">
         <a href="contact.html" class="navigation-list__item">CONTACT&nbsp;</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+      </div>
+    </nav>
+  </div>
 
-</div>
 <!-- Main content -->
 <div class="profile">
   <div class="profile_content">
@@ -79,6 +80,8 @@
     <a href="https://www.no-agency.de" class="footer-icn" target="_blank" title="No agency Website"><i class="fas fa-external-link-alt"></i></a>
   </span>
 </footer>
+
+<script language="javascript" type="text/javascript" src="js/functions.js"></script>
 
 <!-- Website Test Tool -->
 <!--<script src="js/tota11y.min.js"></script>-->
